@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 994f4df84fb7a5448b384b7fbe5a08fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - diffuseIBL: {instanceID: 0}
+  - specularIBL: {instanceID: 0}
+  - brdfLut: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

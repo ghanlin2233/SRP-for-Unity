@@ -1,0 +1,94 @@
+#pragma kernel InstanceCulling
+
+RWStructuredBuffer<float4x4> _matrixBuffer;
+AppendStructuredBuffer<float4x4> _validMatrixBuffer;
+RWStructuredBuffer<uint> _argsBuffer;
+Texture2D _hizTexture;
+int _instanceCount;
+int _size;
+float4 _planes[6];
+float4 _bounds[8];
+float4x4 _vpMatrix;
+
+int GetSide(float4 plane, float3 p)
+{
+	return dot(plane.xyz, p) + plane.w > 0 ? 1 : 0;
+}
+int IsInside(float4 planes[6], float3 p)
+{
+	int count = 0;
+	for(int u = 0; u < 6; u++)
+	{
+		count += GetSide(planes[u], p);
+	}
+	return count == 6 ? 1 : 0;
+}
+
+bool FrustingCull(float4 planes[6], float4 bounds[8])
+{
+	int count = 0;
+	for(int i = 0; i < 8; i++)
+	{
+		count += IsInside(planes, bounds[i]);
+	}
+	return count > 0;
+}
+bool OcculusionCull(float4 bounds[8], Texture2D hizTexture)
+{
+	float4 origin = float4(0,0,0,1);
+	float xmin = 1, xmax = -1, ymin = 1, ymax = -1, zmin = 1, zmax = -1;
+	for(int i = 0; i < 8; i++)
+	{
+		float4 ndc = mul(_vpMatrix, bounds[i]);
+		ndc.xyz /= ndc.w;
+		origin.xyz += ndc.xyz;
+
+		xmin = min(xmin, ndc.x);
+		xmax = max(xmax, ndc.x);
+
+		ymin = min(ymin, ndc.y);
+		ymax = max(ymax, ndc.y);
+
+		zmin = min(zmin, ndc.z);
+		zmax = max(zmax, ndc.z);
+	}
+	origin.xyz /= 8;
+	float2 uv = origin.xy * 0.5 + 0.5;
+
+	//计算mipmap
+	float boxSize = clamp(max(ymax - ymin, xmax - xmin)*0.5, 0, 1);
+	int lod = clamp(floor(log2(boxSize * _size)), 0, 15);
+
+	uv *= _size / pow(2, lod);
+	float d = hizTexture.mips[lod][int2(uv)].r;
+
+	#if defined (UNITY_REVERSED_Z)
+		return d < zmax;
+	#else
+		return d > zmin;
+	#endif
+}
+
+[numthreads(128,1,1)]
+void InstanceCulling (uint3 gid : SV_GROUPID, uint3 id : SV_GroupThreadID)
+{
+	uint index = gid.x * 128 + id.x;  // 线程 id 转 instance id
+    if(index>=(uint)_instanceCount) return;
+
+    float4x4 ObjectToWorld = _matrixBuffer[index];
+
+    // bounding box to world space
+    float4 worldBounds[8];
+    for(int i=0; i<8; i++)
+        worldBounds[i] = mul(ObjectToWorld, _bounds[i]);
+    
+	//frusting Culling
+    if(!FrustingCull(_planes, worldBounds)) return;
+
+	//occlusion Culling
+	//bool occlusion = OcculusionCull(worldBounds, _hizTexture);
+ //   if(!occlusion) return;
+
+    _validMatrixBuffer.Append(ObjectToWorld);   // 保存变换矩阵
+    InterlockedAdd(_argsBuffer[1], 1);
+}

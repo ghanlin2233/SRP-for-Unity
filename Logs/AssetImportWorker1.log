@@ -1,0 +1,932 @@
+Using pre-set license
+Built from 'HEAD' branch; Version is '2021.3.14f1c1 (3aa525a93a5f) revision 3843365'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22622) 64bit Professional' Language: 'zh' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\Editor\2021.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UNITY/Projects/My project (5)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49894
+Successfully changed project path to: D:/UNITY/Projects/My project (5)
+D:/UNITY/Projects/My project (5)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 43.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1c1 (3aa525a93a5f)
+[Subsystems] Discovering subsystems at path D:/UNITY/Editor/2021.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/Projects/My project (5)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     6103 MB
+    Driver:   31.0.12029.7019
+Initialize mono
+Mono path[0] = 'D:/UNITY/Editor/2021.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/Editor/2021.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/Editor/2021.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/Editor/2021.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004270 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (795ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 2472.
+Memory consumption went from 96.8 MB to 96.0 MB.
+Total: 4.680300 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.049800 ms MarkObjects: 4.040800 ms  DeleteObjects: 0.361600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1058ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.8 MB). Loaded Objects now: 2475.
+Memory consumption went from 93.4 MB to 92.6 MB.
+Total: 2.932300 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.451100 ms  DeleteObjects: 0.245700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39819.555874 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat
+  artifactKey: Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/4_10.mat using Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '03c107888333f1c479686946c2357931') in 0.287436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_22.mat
+  artifactKey: Guid(ad7d3ed0319816940bbf70e52f46866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_22.mat using Guid(ad7d3ed0319816940bbf70e52f46866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'd32079ce04cb3d1fb7822d103c0c432a') in 0.050624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat
+  artifactKey: Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat using Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'c2e0cbd3d722dbb656deba8099caf4ba') in 0.089548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sponza.Materials/material_09.asset
+  artifactKey: Guid(1760e73c074fabb43a6ec1ea8c4326f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_09.asset using Guid(1760e73c074fabb43a6ec1ea8c4326f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'b90e123cac30b812580d25f5012eb196') in 0.130370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SkySeries Freebie/DayInTheClouds.mat
+  artifactKey: Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/DayInTheClouds.mat using Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '2824612b4dada6b66dabc6d3ce52ff6f') in 0.091828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_25.mat
+  artifactKey: Guid(66bb025986bd66c479f0fe7e007798b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_25.mat using Guid(66bb025986bd66c479f0fe7e007798b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '02450d4616b52f566a157e40da1ea7c5') in 0.044186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/material1.mat
+  artifactKey: Guid(cfa1e2e209d741e46b0c4c74e5acec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/material1.mat using Guid(cfa1e2e209d741e46b0c4c74e5acec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '0985a1535366d8671315eaac4fc73574') in 0.110871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sponza.Materials/material_13.asset
+  artifactKey: Guid(5cfb5e8cea36dbc4d956515fbf5d4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_13.asset using Guid(5cfb5e8cea36dbc4d956515fbf5d4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '4aa9f1abb2e7d567396fcb707e82427f') in 0.118798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_13.mat
+  artifactKey: Guid(0e3ad63f883b06b458c1ef2d59167313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_13.mat using Guid(0e3ad63f883b06b458c1ef2d59167313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '9b664190cd52b53914a9ab6d059b3506') in 0.043143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sponza.Materials/material_18.asset
+  artifactKey: Guid(f3c0d64ec9dd53549b843f6212ff77f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_18.asset using Guid(f3c0d64ec9dd53549b843f6212ff77f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '82a42abdbc1fe0abca9038cd5af09c05') in 0.107085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/AmbienceExposure.mat
+  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'd3c019dccf285eb8d0dd9e5ce2e6e9a5') in 0.079899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_05.mat
+  artifactKey: Guid(d5c2611926b334e488e131369218f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_05.mat using Guid(d5c2611926b334e488e131369218f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '52e1d762eae4c524134552a149e6cff0') in 0.039225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkySeries Freebie/CasualDay.mat
+  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'ae5ba64289eefd24c7cb37bc644018cf') in 0.084619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sponza.Materials/material_17.asset
+  artifactKey: Guid(ce20cc65d1287e44c8e0679faeaba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_17.asset using Guid(ce20cc65d1287e44c8e0679faeaba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'c4da1bae1a9b77fece543c2b6140cc53') in 0.109989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_03.mat
+  artifactKey: Guid(d483b4637a2e1b84999ed6e843dd932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_03.mat using Guid(d483b4637a2e1b84999ed6e843dd932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '24792ef7bb7c6e42694a77b4ae581040') in 0.036328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat
+  artifactKey: Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_26.mat using Guid(d114cde0600508c4f9eed72b935654e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '7050535dc85409401a2cbcdba2addfc6') in 0.038545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sponza.Materials/material_14.asset
+  artifactKey: Guid(b2f4d05525f469e42a595e3a72a9cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_14.asset using Guid(b2f4d05525f469e42a595e3a72a9cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'bc1b98ce561c1e70fc2c3968855f7a32') in 0.161711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/ironBall.mat
+  artifactKey: Guid(59c17f32ad504ea4588d2fe949ca9755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ironBall.mat using Guid(59c17f32ad504ea4588d2fe949ca9755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'cb195b767369264f1d4a4c6b6f59c21b') in 0.055121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_12.mat
+  artifactKey: Guid(d6e7475a477721949a7fa2353ffb7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_12.mat using Guid(d6e7475a477721949a7fa2353ffb7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'fac1b8c61939099eec74a024ace8bb1a') in 0.042694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sponza.Materials/material_04.asset
+  artifactKey: Guid(8de84b1d331396a41ac1f97f6f3d5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_04.asset using Guid(8de84b1d331396a41ac1f97f6f3d5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '68f14cc204caab3d33258178c3434ebe') in 0.106077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_18.mat
+  artifactKey: Guid(f9d3d0adb0578be45993c6728d3cc2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_18.mat using Guid(f9d3d0adb0578be45993c6728d3cc2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '87666c6af7555cf966b5a22c075a5c0a') in 0.042318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sponza.Materials/material_00.asset
+  artifactKey: Guid(892a666decda05347afcc196ceb9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_00.asset using Guid(892a666decda05347afcc196ceb9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '1cd4cdc80481324f29b05a05455471c3') in 0.119729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/6SidedFluffball.mat
+  artifactKey: Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/6SidedFluffball.mat using Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '58d4bf32527f4ee5e52e497188135337') in 0.050908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
+  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '6c43416896004de9a593634de4b17062') in 0.092414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sponza.Materials/material_05.asset
+  artifactKey: Guid(a06ee8408e95e1143b5e8fb57a10a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_05.asset using Guid(a06ee8408e95e1143b5e8fb57a10a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'd75574d5af535840d84acbde19b41d5c') in 0.118493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_06.mat
+  artifactKey: Guid(404f9faecac1f6d43b5fcefa89522ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_06.mat using Guid(404f9faecac1f6d43b5fcefa89522ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'de4fab6b2916635e5874492691455c6f') in 0.037855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_15.mat
+  artifactKey: Guid(dd9f6c05ac7b21e4abd45bc51f3ce0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_15.mat using Guid(dd9f6c05ac7b21e4abd45bc51f3ce0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '7b8b9a6d4b809858bc84e6bda8706e5e') in 0.039223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sponza.Materials/material_08.asset
+  artifactKey: Guid(af60b97c5e71e294ebce50a570257a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_08.asset using Guid(af60b97c5e71e294ebce50a570257a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'fff3407aa96554db3f385072db982c64') in 0.104761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_24.mat
+  artifactKey: Guid(af089ba3f236b004fb2bb64119f294d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_24.mat using Guid(af089ba3f236b004fb2bb64119f294d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '9e47c12cb1d0a227c1df38da7e0988eb') in 0.041730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_07.mat
+  artifactKey: Guid(579d167621596b0419dc2ebf58efe561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_07.mat using Guid(579d167621596b0419dc2ebf58efe561) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'f7b733655bbeee6fb19eb5a7b3c677c1') in 0.040226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sponza.Materials/material_03.asset
+  artifactKey: Guid(548e61c4a7e030a458cef261ee0b481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_03.asset using Guid(548e61c4a7e030a458cef261ee0b481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '572947e19fd27fd1339317e5db72fe72') in 0.101365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sponza.Materials/material_16.asset
+  artifactKey: Guid(dc7557b70efaae741a54d4c6c7070243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sponza.Materials/material_16.asset using Guid(dc7557b70efaae741a54d4c6c7070243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'eb4060783bab8ce98146c7082fe0c2ab') in 0.108014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
+  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: 'febf73591f182bdde90888b458a83678') in 0.104337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/material2-3.mat
+  artifactKey: Guid(562b00ab02a7d274fa6a066af7aef01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/material2-3.mat using Guid(562b00ab02a7d274fa6a066af7aef01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at SRP.MyPipelineInstance.CSMPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x00012] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:253 
+  at SRP.MyPipelineInstance.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x0001e] in D:\UNITY\Projects\My project (5)\Assets\Resources\SRP\MyPipelineInstance.cs:97 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <4297588c8c1c4e0aa6a68cb3f8be8477>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Resources/SRP/MyPipelineInstance.cs Line: 253)
+
+ -> (artifact id: '3daf5fecf3e4fc54d442382e9720df27') in 0.112059 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

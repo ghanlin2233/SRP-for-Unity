@@ -1,0 +1,40 @@
+[Header]
+ICOfile = "Protospace_D_Thumb.jpg"
+PREVIEWfile = "protospace_D_preview.jpg"
+Name = "Protospace D"
+Author = "Bob Groothuis"
+Location = "Utrecht| The Netherlands"
+Comment = "Interior, Protospace, Fablab, vivid blue and green walls, Rapid Prototyping, conference table"
+GEOlat = 52.102518
+GEOlong = 5.079854
+Link = Òhttp://www.bobgroothuis.com/Ó
+Date = Ò2010:04:09Ó
+Time = Ò11::08Ó
+Height = 1.55
+North = 0.0
+
+[Background]
+BGfile = "Protospace_D_Bg.jpg"
+BGmap = 1
+BGu = 0.000000
+BGv = 0.000000
+BGheight = 4000
+
+[Enviroment]
+EVfile = "Protospace_D_Env.hdr"
+EVmap = 1
+EVu = 0.000000
+EVv = 0.000000
+EVheight = 180
+EVmulti = 1.000000
+EVgamma = 2.200000
+
+[Reflection]
+REFfile = "Protospace_D_Ref.hdr"
+REFmap = 1
+REFu = 0.000000
+REFv = 0.000000
+REFheight = 500
+REFmulti = 1.000000
+REFgamma = 2.200000
+

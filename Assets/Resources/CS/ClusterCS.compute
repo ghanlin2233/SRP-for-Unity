@@ -1,0 +1,63 @@
+#pragma kernel ClusterCS
+
+struct ComputeShaderInput
+{
+	uint3 GroupID           : SV_GroupID;
+	uint3 GroupThreadID     : SV_GroupThreadID; 
+	uint3 DispatchThreadID  : SV_DispatchThreadID;
+	uint  GroupIndex        : SV_GroupIndex;
+};
+
+struct Plane
+{
+	float3 normal;   // Plane normal.
+	float  d;   // Distance to origin.
+};
+float4 ClipToView(float4 clip)
+{
+	float4 view = mul(_InverseProjectionMatrix, clip);
+	view = view / view.w;
+	return view;
+}
+float4 ScreenToView(float4 screen)
+{
+	// Convert to normalized texture coordinates in the range [0 .. 1].
+	float2 texcoord = screen.xy * ClusterCB_ScreenDimensions.zw;
+	// Convert to clip space
+	float4 clip = float4(texcoord * 2.0f - 1.0f, screen.z, screen.w);
+	return ClipToView(clip);
+}
+
+uint3 ComputeClusterIndex3D(uint clusterIndex1D)
+{
+	uint i = clusterIndex1D % ClusterCB_GridDim.x;
+	uint j = clusterIndex1D % (ClusterCB_GridDim.x * ClusterCB_GridDim.y) / ClusterCB_GridDim.x;
+	uint k = clusterIndex1D / (ClusterCB_GridDim.x * ClusterCB_GridDim.y);
+
+	return uint3(i, j, k);
+}
+
+[numthreads(,,1)]
+void ClusterCS(ComputeShaderInput cs_IDs)
+{
+	uint clusterIndex1D = cs_IDs.DispatchThreadID.x;
+	uint clusterIndex3D = ComputeClusterIndex3D(clusterIndex1D);
+
+	Plane nearK = {0.0f, 0.0f, 1.0f, nearPlane * pow(abs(ClusterCB_NearK), clusterIndex3D.z)};
+	Plane farK = {0.0f, 0.0f, 1.0f, nearPlane * pow(abs(ClusterCB_NearK), clusterIndex3D.z + 1)};
+
+	// The top-left point of cluster K in screen space.
+	float4 pMin = float4(clusterIndex3D.xy * ClusterCB_Size.xy, 0.0f, 1.0f);
+	float4 pMax = float4((clusterIndex3D.xy + 1) * ClusterCB_Size.xy, 0.0f, 1.0f);
+
+	// Transform the screen space points to view space.
+	pMin = ScreenToView(pMin);
+	pMax = ScreenToView(pMax);
+
+	pMin.z *= -1;
+	pMax.z *= -1；
+
+	// Find the min and max points on the near and far planes.
+	float3 nearMin, nearMax, farMin, farMax;
+
+}
